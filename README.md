@@ -1,7 +1,7 @@
 # CNN-for-Number-Sorting
 
-Aim: To design a convnet that sorts numbers. Operators are ReLU, Conv, and Pooling.
-E.g. input: 5, 3, 6, 2; output: 2, 3, 5, 6
+# Aim: To design a convnet that sorts numbers. Operators are ReLU, Conv, and Pooling.
+# E.g. input: 5, 3, 6, 2; output: 2, 3, 5, 6
 
 There are 2 scripts present in this folder.
 
@@ -23,7 +23,7 @@ The best model obtained can be saved by uncommenting the last line.
 
 This script loads the best obtained model and sorts some input sequences.
 
-Observations during various Experiments conducted
+# Observations during various Experiments conducted
 
 1) First the network was trained on 100000 different permutations of numbers from 1 to 50
 for about 30 epochs.
